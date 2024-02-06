@@ -6,6 +6,8 @@
 ## This is a Heading h2
 ###### This is a Heading h6
 
+[Link to another page](./new-page.html)
+
 ## Emphasis
 
 *This text will be italic*  
