@@ -8,6 +8,8 @@
 
 [Link to another page](./new-page.html)
 
+Das Ding ist wirklich der Hammer!
+
 ## Emphasis
 
 *This text will be italic*  
