@@ -1,4 +1,4 @@
-# Supertest IV Handy
+# Supertest IV
 
 ## Headers
 
