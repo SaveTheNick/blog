@@ -3,4 +3,10 @@
 
 @import 'jekyll-theme-cayman';
 
+.page-header {
+    color: #fff;
+    text-align: center;
+    background-color: #464646;
+    background-image: linear-gradient(120deg, #155199, #159957);
+}
 .page-header .btn {display: none;}
