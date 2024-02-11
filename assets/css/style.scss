@@ -4,16 +4,14 @@
 @import 'jekyll-theme-cayman';
 
 .page-header {
-    background-color: #0489DB;
-    background-image: url('/assets/images/holy-eagle.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 550px;
+    background-image: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(255,0,0,1) 50%, rgba(243,255,0,1) 100%);
 }
 
-.page-header .btn {display: none;}
+.page-header .btn { display: none; }
 
-.site-footer-credits {display: none;}
+.project-tagline { opacity: 1; }
+
+.site-footer-credits { display: none; }
 
 .main-content h1 {
     color: #0489DB;
