@@ -12,7 +12,7 @@ description: This is just my page
 ## This is a Heading h2
 ###### This is a Heading h6
 
-[Link to another page](./pages/first.html)
+[Link to another page](./new-page.html)
 
 Das Ding ist wirklich der Hammer!
 
