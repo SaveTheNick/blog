@@ -1,7 +1,9 @@
 ---
-layout: default
 title: Supertest genZ
 description: This is just my page
+layout: default
+excerpt_separator: <!--more-->
+permalink: /about/
 ---
 
 # Supertest IV

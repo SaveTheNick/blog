@@ -14,3 +14,15 @@
 .page-header .btn {display: none;}
 
 .site-footer-credits {display: none;}
+
+@media screen and (max-width: 1024px) {
+    .page-header {
+        background-size: 350px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .page-header {
+        background-size: 250px;
+    }
+}

@@ -1016,4 +1016,15 @@ a:hover {
   display: none;
 }
 
+@media screen and (max-width: 1024px) {
+  .page-header {
+    background-size: 350px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .page-header {
+    background-size: 250px;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
