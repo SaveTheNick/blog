@@ -1016,6 +1016,10 @@ a:hover {
   z-index: 2;
 }
 
+.project-name a {
+  color: white;
+}
+
 .project-tagline {
   opacity: 1;
   position: relative;
