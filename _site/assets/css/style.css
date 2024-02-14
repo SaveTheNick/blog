@@ -1032,10 +1032,6 @@ a:hover {
   margin-top: -175px;
 }
 
-.site-footer-credits {
-  display: none;
-}
-
 .main-content h1 {
   color: #0489DB;
 }
@@ -1058,6 +1054,14 @@ a:hover {
 
 .main-content h6 {
   color: #0489DB;
+}
+
+.site-footer-credits {
+  display: none;
+}
+
+.site-footer-owner {
+  display: none;
 }
 
 .site-footer-copyright {

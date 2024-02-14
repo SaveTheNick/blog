@@ -33,8 +33,6 @@
     margin-top: -175px;
  }
 
-.site-footer-credits { display: none; }
-
 .main-content h1 {
     color: #0489DB;
 }
@@ -59,9 +57,11 @@
     color: #0489DB;
 }
 
-.site-footer-copyright {
-    font-weight: 700;
-}
+.site-footer-credits { display: none; }
+
+.site-footer-owner { display: none; }
+
+.site-footer-copyright { font-weight: 700; }
 
 @media screen and (max-width: 1024px) {
     .project-logo {
