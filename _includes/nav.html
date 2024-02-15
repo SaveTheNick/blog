@@ -1,9 +1,10 @@
+<h2>Nav</h2>
 <ul>
-{% for item in include.nav %}
-  <li><a href="{{ item.url }}">{{ item.title }}</a>
-    {% if item.subnav %}
-      {% include nav.html nav=item.subnav %}
-    {% endif %}
-  </li>
+{% for item in site.data.samplelist.nav %}
+<li><a href="{{ item.url }}">{{ item.title }}</a>
+  {% if item.subnav %}
+  {% include nav.html nav=item.subnav %}
+  {% endif %}
+</li>
 {% endfor %}
 </ul>
