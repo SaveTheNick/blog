@@ -1,0 +1,16 @@
+---
+Title: Front Test
+---
+
+{% include nav.html nav=page.nav %}
+
+{% assign mydocs = site.docs | group_by: 'category' %}
+{% for cat in mydocs %}
+<h2>{{ cat.name | capitalize }}</h2>
+  <ul>
+  {% assign items = cat.items | sort: 'order' %}
+  {% for item in items %}
+    <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+  {% endfor %}
+  </ul>
+{% endfor %}
