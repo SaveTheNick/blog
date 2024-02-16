@@ -1,5 +1,6 @@
 ---
 Title: Front Test
+layout: default
 ---
 
 {% include nav.html nav=page.nav %}

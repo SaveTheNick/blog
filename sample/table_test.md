@@ -1,5 +1,6 @@
 ---
 title: Table test
+layout: default
 sidebar: toc
 ---
 
